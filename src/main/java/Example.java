@@ -11,7 +11,10 @@ public class Example {
     String home() {
         return "Hello Arjun";
     }
-
+@RequestMapping("/getData")
+    String home() {
+        return "Getting some data";
+    }
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Example.class, args);
     }
